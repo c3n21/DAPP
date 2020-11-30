@@ -32,7 +32,7 @@ services:
         container_name: "${APACHE_NAME}"
     db:
         image: postgres:latest
-        container_name: "${POSTGRES_NAME}"
+        #container_name: "${POSTGRES_NAME}"
         restart: always
         networks:
             - backend
